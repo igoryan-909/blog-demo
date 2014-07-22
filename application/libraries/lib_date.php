@@ -1,13 +1,13 @@
 <?php
 /**
- * @àâòîð Ivanoff
- * @îïèñàíèå ôàéëà: 
- * @èçìåíåí 20.7.2014
+ * @Ð°Ð²Ñ‚Ð¾Ñ€ Ivanoff
+ * @Ð¾Ð¿Ð¸ÑÐ°Ð½Ð¸Ðµ Ñ„Ð°Ð¹Ð»Ð°: 
+ * @Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½ 20.7.2014
  */
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class lib_date {
     private $month = array('');
-    //Ôóíêöèÿ äëÿ ôîðìèðîâàíèÿ äàòû
+    //Ð¤ÑƒÐ½ÐºÑ†Ð¸Ñ Ð´Ð»Ñ Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ Ð´Ð°Ñ‚Ñ‹
     function format_date($timestamp) {
         $CI = &get_instance();
         $CI->lang->load('calendar');
